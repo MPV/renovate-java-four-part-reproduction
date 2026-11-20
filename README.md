@@ -1,7 +1,8 @@
 # Four-part Eclipse Temurin tags
 
 Minimal reproduction for [renovatebot/renovate#47083](https://github.com/renovatebot/renovate/discussions/47083).
-[renovatebot/renovate#48252](https://github.com/renovatebot/renovate/pull/48252) proposes a fix.
+[renovatebot/renovate#48252](https://github.com/renovatebot/renovate/pull/48252) fixes it in Renovate 44.257.3.
+[renovatebot/renovate#48254](https://github.com/renovatebot/renovate/discussions/48254) has a workaround for older versions.
 The `workarounds:javaLTSVersions` preset, part of `config:recommended`, can't parse four-part Eclipse Temurin tags such as `21.0.12.1_1-jdk-noble`.
 
 Temurin gives its out-of-band releases a fourth version part.
